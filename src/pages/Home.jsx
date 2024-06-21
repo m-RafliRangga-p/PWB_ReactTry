@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import TestimonialCarousel from '../components/TestimonialCarousel'
+
 
 function Home() {
   return (
@@ -22,7 +24,7 @@ function Home() {
               </div>
               <p className="mb-4">Desa Ponggok adalah desa wisata yang berada di Kecamatan Polanharjo Kabupaten Klaten yang memiliki potensi alam</p>
               <p className="mb-4">Potensi alam tersebut berupa sumber mata air jernih, segar dan melimpah dengan Umbul Ponggok sebagai objek wisata andalan</p>
-              <a className="btn btn-primary py-3 px-5 mt-2" href="./tentang_kami.html" data-aos="fade-down" data-aos-delay={250}>Read More</a>
+              <a className="btn btn-primary py-3 px-5 mt-2" href="/about" data-aos="fade-down" data-aos-delay={250}>Read More</a>
             </div>
           </div>
         </div>
@@ -214,6 +216,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <TestimonialCarousel />
       {/* Back to Top */}
       <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up" /></a>
       <Footer/>
