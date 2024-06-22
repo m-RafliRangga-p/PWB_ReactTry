@@ -22,7 +22,7 @@ function Home() {
               <div className="animated-text">
                 Selamat datang di <span />
               </div>
-              <p className="mb-4">Desa Ponggok adalah desa wisata yang berada di Kecamatan Polanharjo Kabupaten Klaten yang memiliki potensi alam</p>
+              <p className="mb-3 mt-3">Desa Ponggok adalah desa wisata yang berada di Kecamatan Polanharjo Kabupaten Klaten yang memiliki potensi alam</p>
               <p className="mb-4">Potensi alam tersebut berupa sumber mata air jernih, segar dan melimpah dengan Umbul Ponggok sebagai objek wisata andalan</p>
               <a className="btn btn-primary py-3 px-5 mt-2" href="/about" data-aos="fade-down" data-aos-delay={250}>Read More</a>
             </div>
@@ -105,21 +105,21 @@ function Home() {
             <div className="col-lg-7 col-md-6">
               <div className="row g-3">
                 <div className="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s" data-aos="zoomIn" data-aos-delay={150}>
-                  <a className="position-relative d-block overflow-hidden" href="./umbul/u_ponggok.html" target="_blank">
+                  <a className="position-relative d-block overflow-hidden" href="../../assets/umbul/u_ponggok.html" target="_blank">
                     <img className="img-fluid" src="../../assets/img/ponggok5.jpeg" alt />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Umbul Ponggok</div>
                     <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style={{borderRadius: 20}}>Read More</div>
                   </a>
                 </div>
                 <div className="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s" data-aos="zoomIn" data-aos-delay={250}>
-                  <a className="position-relative d-block overflow-hidden" href="./umbul/u_SiGedhang.html" target="_blank">
+                  <a className="position-relative d-block overflow-hidden" href="../../assets/umbul/u_SiGedhang.html" target="_blank">
                     <img className="img-fluid" src="../../assets/img/Gedhang/sigedang1.jpg" alt />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Umbul Kapiler</div>
                     <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style={{borderRadius: 20}}>Read More</div>
                   </a>
                 </div>
                 <div className="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s" data-aos="zoomIn" data-aos-delay={350}>
-                  <a className="position-relative d-block overflow-hidden" href="./umbul/u_SiGedhang.html" target="_blank">
+                  <a className="position-relative d-block overflow-hidden" href="../../assets/umbul/u_SiGedhang.html" target="_blank">
                     <img className="img-fluid" src="../../assets/img/Gedhang/sigedang3.jpg" alt />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Umbul SiGedhang</div>
                     <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style={{borderRadius: 20}}>Read More</div>
@@ -128,7 +128,7 @@ function Home() {
               </div>
             </div>
             <div className="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" data-aos="zoomIn" data-aos-delay={450} style={{minHeight: 350}}>
-              <a className="position-relative d-block h-100 overflow-hidden" href="./umbul/u_Besuki.html" target="_blank">
+              <a className="position-relative d-block h-100 overflow-hidden" href="../../assets/umbul/u_Besuki.html" target="_blank">
                 <img className="img-fluid position-absolute w-100 h-100" src="../../assets/img/Besuki/besuki4_up.jpg" alt style={{objectFit: 'cover'}} />
                 <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Umbul Besuki</div>
                 <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style={{borderRadius: 20}}>Read More</div>
@@ -182,40 +182,6 @@ function Home() {
         </div>
       </div>
       {/* Testi Pengunjung (Carousels) */}
-      <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div className="container">
-          <div className="text-center">
-            <h6 className="section-title bg-white text-center text-primary px-3">Customer Satisfacionary Survey</h6>
-            <h1 className="mb-5">Apa Kata Mereka?</h1>
-          </div>
-          <div className="owl-carousel testimonial-carousel position-relative">
-            <div className="testimonial-item bg-white text-center border p-4">
-              <img className="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/1.jpg" style={{width: 80, height: 80}} />
-              <h5 className="mb-0">Yanto</h5>
-              <p>Solo, indonesia</p>
-              <p className="mb-0">Umbul ponggok destinasi yang sangat wajib dikunjungi.</p>
-            </div>
-            <div className="testimonial-item bg-white text-center border p-4">
-              <img className="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/3.jpg" style={{width: 80, height: 80}} />
-              <h5 className="mb-0">Yanti</h5>
-              <p>Jakarta Selatan </p>
-              <p className="mt-2 mb-0">"Mengunjungi Umbul Ponggok, Besuki, dan Sigedang Kapilaler adalah seperti memasuki surga tersembunyi di tengah alam yang megah. </p>
-            </div>
-            <div className="testimonial-item bg-white text-center border p-4">
-              <img className="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/2.jpg" style={{width: 80, height: 80}} />
-              <h5 className="mb-0">Anom Priyanto</h5>
-              <p>Palestina </p>
-              <p className="mt-2 mb-0">Saya telah berkunjung ke banyak tempat wisata, namun keindahan Umbul Ponggok, Besuki, dan Sigedang Kapilaler benar-benar menakjubkan.</p>
-            </div>
-            <div className="testimonial-item bg-white text-center border p-4">
-              <img className="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/4.jpg" style={{width: 80, height: 80}} />
-              <h5 className="mb-0">Rachmasari</h5>
-              <p>Yogyakarta</p>
-              <p className="mt-2 mb-0">Umbul Ponggok, Besuki, dan Sigedang Kapilaler tidak hanya sekadar tempat wisata, tetapi juga tempat yang memiliki energi yang sangat positif. </p>
-            </div>
-          </div>
-        </div>
-      </div>
       <TestimonialCarousel />
       {/* Back to Top */}
       <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up" /></a>
